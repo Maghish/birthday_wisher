@@ -4,6 +4,11 @@ export default {
     "./src/**/*.js",
     "./src/**/*.jsx", 
   ],
-  theme: { extend: {} },
+  theme: {
+    extend: {},
+    fontFamily: {
+        'ubuntu': ['Ubuntu', 'sans-serif']
+    }
+  },
   plugins: [],
 }
